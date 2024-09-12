@@ -1,5 +1,4 @@
-## Код №1
-### 
+# Код №1 
 
 class Scanner:
     def __init__(self, input_stream):
