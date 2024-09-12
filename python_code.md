@@ -1,6 +1,7 @@
 # Код №1
 
 class Scanner:
+    
     def __init__(self, input_stream):
         self._input_stream = input_stream
 
@@ -22,9 +23,10 @@ class Parser:
     def parse(self, scanner, program_node_builder):
         pass  
 
-# Код №3
+# Код №3 
 
 class ProgramNodeBuilder:
+    
     def __init__(self):
         self._node = None  
 
@@ -46,6 +48,7 @@ class ProgramNodeBuilder:
 # Код №4
 
 class ProgramNode:
+    
     def __init__(self):
         pass 
 
