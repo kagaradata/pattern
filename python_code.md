@@ -14,6 +14,7 @@ class Scanner:
 # Код №2
 
 class Parser:
+    
     def __init__(self):
         pass  
 
