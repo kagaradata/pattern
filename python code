@@ -1,1 +1,11 @@
+## код №1
+class Scanner:
+    def __init__(self, input_stream):
+        self._input_stream = input_stream
+
+    def __del__(self):
+        pass  
+
+    def scan(self):
+        pass
 
