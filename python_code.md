@@ -1,6 +1,4 @@
-# Работа №1
-
-## Код №1
+# Код №1
 
 class Scanner:
     def __init__(self, input_stream):
@@ -12,7 +10,7 @@ class Scanner:
     def scan(self):
         pass
 
-## Код №2
+# Код №2
 
 class Parser:
     def __init__(self):
@@ -24,7 +22,7 @@ class Parser:
     def parse(self, scanner, program_node_builder):
         pass  
 
-## Код №3
+# Код №3
 
 class ProgramNodeBuilder:
     def __init__(self):
@@ -45,7 +43,7 @@ class ProgramNodeBuilder:
     def get_root_node(self) -> 'ProgramNode':
         return self._node  
 
-## Код №4
+# Код №4
 
 class ProgramNode:
     def __init__(self):
